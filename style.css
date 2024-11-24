@@ -51,12 +51,10 @@ body {
 
 .left-ad {
     left: 120px;
-    background: url('ad-image.jpg');
 }
 
 .right-ad {
     right: 120px;
-    background: url('ad-image.jpg');
 }
 
 .sticky-ad img {
