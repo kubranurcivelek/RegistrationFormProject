@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
+    
     <nav class="navbar">
         <ul>
             <li><a href="#">Home</a></li>
@@ -17,28 +17,27 @@
         </ul>
     </nav>
 
-    <!-- Main Form Section -->
+   
 <div class="form-container">
     <form id="registrationForm">
     
-        <!-- Name -->
         <label for="name">Name</label>
         <div style="display: flex; gap: 10px; margin-bottom: 15px;">
             <input type="text" id="firstName" name="firstName" placeholder="First Name" required style="flex: 1;">
             <input type="text" id="lastName" name="lastName" placeholder="Last Name" required style="flex: 1;">
         </div>
     
-        <!-- Company -->
+
         <label for="company">Company</label>
         <select id="company" name="company" required>
             <option value="" disabled selected>Select Company</option>
         </select>
     
-        <!-- Email -->
+       
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
     
-        <!-- Phone -->
+       
         <label for="phone">Phone</label>
         <div style="display: flex; gap: 10px; margin-bottom: 15px;">
             <select id="areaCode" name="areaCode" required style="flex: 1;">
@@ -47,20 +46,19 @@
             <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Phone Number" style="flex: 2;">
         </div>
     
-        <!-- Subject -->
+       
         <label for="subject">Subject</label>
         <select id="subject" name="subject" required>
             <option value="" disabled selected>Select Subject</option>
         </select>
     
-        <!-- Beginner -->
+        
         <label>Are you a beginner?</label>
         <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
             <label><input type="radio" id="yes" name="beginner" value="yes" required> Yes</label>
             <label><input type="radio" id="no" name="beginner" value="no" required> No</label>
         </div>
     
-        <!-- Submit -->
         <button type="submit">Register</button>
     </form>
     
