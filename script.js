@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
    
     const mockApiUrl = 'https://run.mocky.io/v3/70620ece-6a38-4062-9d31-a887a5de305c'; // Company and Subject API URL
     const mockAreaCodeUrl = 'https://run.mocky.io/v3/7838b23b-a775-4529-8734-db4f4984b6f0'; // Area Code API URL
-
     
     const companySelect = document.getElementById('company');
     const subjectSelect = document.getElementById('subject');
